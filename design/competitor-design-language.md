@@ -433,13 +433,12 @@ box-shadow: rgb(74, 144, 226) 0px 0px 8.9496px 0px;
 --font-body: "Inter",sans-serif;
 --font-weight-medium: 500;
 --font-weight-normal: 400;
---tracking-tight: -.025em;
 --text-2xl: 1.5rem;
 --text-lg: 1.125rem;
 --text-5xl--line-height: 1;
 --text-base--line-height: 1.5;
---tracking-wider: .05em;
 --font-mono: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+--tracking-wider: .05em;
 --text-lg--line-height: 1.55556;
 --font-sans: ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 --font-weight-bold: 700;
@@ -458,15 +457,16 @@ box-shadow: rgb(74, 144, 226) 0px 0px 8.9496px 0px;
 --leading-tight: 1.25;
 --text-4xl: 2.25rem;
 --text-sm--line-height: 1.42857;
---text-5xl: 3rem;
 --text-3xl--line-height: 1.2;
+--text-5xl: 3rem;
 --text-xs: .75rem;
---tracking-widest: .1em;
 --text-3xl: 1.875rem;
+--tracking-widest: .1em;
 --font-serif: ui-serif,Georgia,Cambria,"Times New Roman",Times,serif;
 --text-4xl--line-height: 1.11111;
 --text-base: 1rem;
 --default-mono-font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+--tracking-tight: -.025em;
 ```
 
 ### Shadows
@@ -553,8 +553,8 @@ box-shadow: rgb(74, 144, 226) 0px 0px 8.9496px 0px;
 --tw-exit-scale: 1;
 --tw-translate-x: 0;
 --tw-enter-rotate: 0;
---tw-enter-translate-y: 0;
 --tw-scale-x: 1;
+--tw-enter-translate-y: 0;
 --tw-enter-blur: 0;
 --container-xl: 36rem;
 --tw-enter-opacity: 1;
@@ -838,10 +838,10 @@ Reusable component instances grouped by DOM structure and style similarity:
 **"Accept All"**
 ```css
 /* Hover */
-background-color: rgba(0, 0, 0, 0) → oklab(0.815954 -0.116777 -0.0864277 / 0.0347509);
-border-color: oklab(0.815954 -0.116777 -0.0864277 / 0.4) → oklab(0.815954 -0.116777 -0.0864277 / 0.608506);
-box-shadow: rgba(139, 92, 46, 0.6) 0px 0px 0px 2px, rgba(0, 0, 0, 0.8) 0px 0px 0px 3px, rgba(255, 255, 255, 0.15) 0px 2px 4px 0px inset, rgba(0, 0, 0, 0.4) 0px -2px 4px 0px inset, rgba(0, 0, 0, 0.6) 0px 6px 12px 0px → rgba(226, 161, 11, 0.737) 0px 0px 0px 2px, rgba(0, 0, 0, 0.8) 0px 0px 0px 3px, rgba(255, 255, 255, 0.22) 0px 2px 4px 0px inset, rgba(0, 0, 0, 0.47) 0px -2px 4px 0px inset, rgba(0, 131, 154, 0.463) 0px 1.82989px 17.5602px 0px, rgba(0, 0, 0, 0.557) 0px 5.56015px 11.1203px 0px;
-transform: none → matrix(1, 0, 0, 1, 0, -0.695019);
+background-color: rgba(0, 0, 0, 0) → oklab(0.815954 -0.116777 -0.0864277 / 0.0418684);
+border-color: oklab(0.815954 -0.116777 -0.0864277 / 0.4) → oklab(0.815954 -0.116777 -0.0864277 / 0.65121);
+box-shadow: rgba(139, 92, 46, 0.6) 0px 0px 0px 2px, rgba(0, 0, 0, 0.8) 0px 0px 0px 3px, rgba(255, 255, 255, 0.15) 0px 2px 4px 0px inset, rgba(0, 0, 0, 0.4) 0px -2px 4px 0px inset, rgba(0, 0, 0, 0.6) 0px 6px 12px 0px → rgba(240, 172, 6, 0.77) 0px 0px 0px 2px, rgba(0, 0, 0, 0.8) 0px 0px 0px 3px, rgba(255, 255, 255, 0.235) 0px 2px 4px 0px inset, rgba(0, 0, 0, 0.486) 0px -2px 4px 0px inset, rgba(0, 168, 197, 0.43) 0px 0.97579px 18.6989px 0px, rgba(0, 0, 0, 0.67) 0px 6.69895px 13.3979px 0px;
+transform: none → matrix(1, 0, 0, 1, 0, -0.837368);
 ```
 ```css
 /* Focus */
@@ -855,10 +855,10 @@ outline: oklab(0.815954 -0.116777 -0.0864277 / 0.5) none 3px → oklab(0.815954 
 **"Reject Non-Essential"**
 ```css
 /* Hover */
-background-color: rgba(0, 0, 0, 0) → oklab(0.815954 -0.116777 -0.0864277 / 0.0347762);
-border-color: oklab(0.815954 -0.116777 -0.0864277 / 0.4) → oklab(0.815954 -0.116777 -0.0864277 / 0.608657);
-box-shadow: rgba(139, 92, 46, 0.6) 0px 0px 0px 2px, rgba(0, 0, 0, 0.8) 0px 0px 0px 3px, rgba(255, 255, 255, 0.15) 0px 2px 4px 0px inset, rgba(0, 0, 0, 0.4) 0px -2px 4px 0px inset, rgba(0, 0, 0, 0.6) 0px 6px 12px 0px → rgba(226, 161, 11, 0.737) 0px 0px 0px 2px, rgba(0, 0, 0, 0.8) 0px 0px 0px 3px, rgba(255, 255, 255, 0.22) 0px 2px 4px 0px inset, rgba(0, 0, 0, 0.47) 0px -2px 4px 0px inset, rgba(0, 131, 154, 0.463) 0px 1.82686px 17.5642px 0px, rgba(0, 0, 0, 0.557) 0px 5.56419px 11.1284px 0px;
-transform: none → matrix(1, 0, 0, 1, 0, -0.695524);
+background-color: rgba(0, 0, 0, 0) → oklab(0.815954 -0.116777 -0.0864277 / 0.0347515);
+border-color: oklab(0.815954 -0.116777 -0.0864277 / 0.4) → oklab(0.815954 -0.116777 -0.0864277 / 0.608509);
+box-shadow: rgba(139, 92, 46, 0.6) 0px 0px 0px 2px, rgba(0, 0, 0, 0.8) 0px 0px 0px 3px, rgba(255, 255, 255, 0.15) 0px 2px 4px 0px inset, rgba(0, 0, 0, 0.4) 0px -2px 4px 0px inset, rgba(0, 0, 0, 0.6) 0px 6px 12px 0px → rgba(226, 161, 11, 0.737) 0px 0px 0px 2px, rgba(0, 0, 0, 0.8) 0px 0px 0px 3px, rgba(255, 255, 255, 0.22) 0px 2px 4px 0px inset, rgba(0, 0, 0, 0.47) 0px -2px 4px 0px inset, rgba(0, 131, 154, 0.463) 0px 1.82982px 17.5602px 0px, rgba(0, 0, 0, 0.557) 0px 5.56024px 11.1205px 0px;
+transform: none → matrix(1, 0, 0, 1, 0, -0.69503);
 ```
 ```css
 /* Focus */
@@ -872,10 +872,10 @@ outline: oklab(0.815954 -0.116777 -0.0864277 / 0.5) none 3px → oklab(0.815954 
 **"Manage Preferences"**
 ```css
 /* Hover */
-background-color: rgba(0, 0, 0, 0) → oklab(0.815954 -0.116777 -0.0864277 / 0.0347289);
-border-color: oklab(0.815954 -0.116777 -0.0864277 / 0.4) → oklab(0.815954 -0.116777 -0.0864277 / 0.608374);
-box-shadow: rgba(139, 92, 46, 0.6) 0px 0px 0px 2px, rgba(0, 0, 0, 0.8) 0px 0px 0px 3px, rgba(255, 255, 255, 0.15) 0px 2px 4px 0px inset, rgba(0, 0, 0, 0.4) 0px -2px 4px 0px inset, rgba(0, 0, 0, 0.6) 0px 6px 12px 0px → rgba(226, 161, 11, 0.737) 0px 0px 0px 2px, rgba(0, 0, 0, 0.8) 0px 0px 0px 3px, rgba(255, 255, 255, 0.22) 0px 2px 4px 0px inset, rgba(0, 0, 0, 0.47) 0px -2px 4px 0px inset, rgba(0, 131, 154, 0.463) 0px 1.83253px 17.5566px 0px, rgba(0, 0, 0, 0.557) 0px 5.55663px 11.1133px 0px;
-transform: none → matrix(1, 0, 0, 1, 0, -0.694579);
+background-color: rgba(0, 0, 0, 0) → oklab(0.815954 -0.116777 -0.0864277 / 0.0347581);
+border-color: oklab(0.815954 -0.116777 -0.0864277 / 0.4) → oklab(0.815954 -0.116777 -0.0864277 / 0.608548);
+box-shadow: rgba(139, 92, 46, 0.6) 0px 0px 0px 2px, rgba(0, 0, 0, 0.8) 0px 0px 0px 3px, rgba(255, 255, 255, 0.15) 0px 2px 4px 0px inset, rgba(0, 0, 0, 0.4) 0px -2px 4px 0px inset, rgba(0, 0, 0, 0.6) 0px 6px 12px 0px → rgba(226, 161, 11, 0.737) 0px 0px 0px 2px, rgba(0, 0, 0, 0.8) 0px 0px 0px 3px, rgba(255, 255, 255, 0.22) 0px 2px 4px 0px inset, rgba(0, 0, 0, 0.47) 0px -2px 4px 0px inset, rgba(0, 131, 154, 0.463) 0px 1.82903px 17.5613px 0px, rgba(0, 0, 0, 0.557) 0px 5.56129px 11.1226px 0px;
+transform: none → matrix(1, 0, 0, 1, 0, -0.695162);
 ```
 ```css
 /* Focus */

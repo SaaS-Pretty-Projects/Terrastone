@@ -4,7 +4,7 @@
     "version": "7.0.0",
     "spec": "https://design-tokens.github.io/community-group/format/",
     "source": "https://kingdomofarcane.com",
-    "generatedAt": "2026-04-19T10:56:36.284Z"
+    "generatedAt": "2026-04-21T18:27:31.097Z"
   },
   "primitive": {
     "color": {
@@ -14,17 +14,37 @@
           "$type": "color"
         },
         "secondary": {
-          "$value": "#e8e8f0",
+          "$value": "#ffb800",
           "$type": "color"
         }
       },
       "neutral": {
         "n100": {
-          "$value": "#000000",
+          "$value": "#e8e8f0",
           "$type": "color"
         },
         "n200": {
+          "$value": "#000000",
+          "$type": "color"
+        },
+        "n300": {
+          "$value": "#9ca3af",
+          "$type": "color"
+        },
+        "n400": {
+          "$value": "#0a0a0f",
+          "$type": "color"
+        },
+        "n500": {
           "$value": "#ffffff",
+          "$type": "color"
+        },
+        "n600": {
+          "$value": "#c8c8d8",
+          "$type": "color"
+        },
+        "n700": {
+          "$value": "#4b5563",
           "$type": "color"
         }
       },

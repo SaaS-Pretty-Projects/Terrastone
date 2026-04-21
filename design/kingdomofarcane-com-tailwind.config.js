@@ -29,7 +29,7 @@ export default {
             '800': 'hsl(NaN, NaN%, 24%)',
             '900': 'hsl(NaN, NaN%, 16%)',
             '950': 'hsl(NaN, NaN%, 10%)',
-            DEFAULT: '#e8e8f0'
+            DEFAULT: '#ffb800'
         },
         accent: {
             '50': 'hsl(NaN, NaN%, 97%)',
@@ -45,8 +45,13 @@ export default {
             '950': 'hsl(NaN, NaN%, 10%)',
             DEFAULT: '#00b1ff'
         },
-        'neutral-50': '#000000',
-        'neutral-100': '#ffffff',
+        'neutral-50': '#e8e8f0',
+        'neutral-100': '#000000',
+        'neutral-200': '#9ca3af',
+        'neutral-300': '#0a0a0f',
+        'neutral-400': '#ffffff',
+        'neutral-500': '#c8c8d8',
+        'neutral-600': '#4b5563',
         background: '#0a0a0f',
         foreground: '#000000'
     },

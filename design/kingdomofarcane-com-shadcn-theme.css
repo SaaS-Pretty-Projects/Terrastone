@@ -7,12 +7,12 @@
     --foreground: 0 0% 0%;
     --primary: 189 100% 50%;
     --primary-foreground: 0 0% 0%;
-    --secondary: 240 21% 93%;
+    --secondary: 43 100% 50%;
     --secondary-foreground: 0 0% 0%;
     --accent: 198 100% 50%;
     --accent-foreground: 0 0% 100%;
-    --muted: 0 0% 100%;
-    --muted-foreground: 0 0% 0%;
+    --muted: 215 14% 34%;
+    --muted-foreground: 240 21% 93%;
     --border: 0 0% 100%;
     --radius: 6px;
   }

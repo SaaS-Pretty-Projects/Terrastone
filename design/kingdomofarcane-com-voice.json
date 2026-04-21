@@ -1,0 +1,51 @@
+{
+  "tone": "friendly",
+  "pronoun": "third-person",
+  "headingStyle": "unknown",
+  "headingLengthClass": "tight",
+  "ctaVerbs": [
+    {
+      "value": "sign",
+      "count": 2
+    },
+    {
+      "value": "register",
+      "count": 1
+    },
+    {
+      "value": "forgot",
+      "count": 1
+    },
+    {
+      "value": "enter",
+      "count": 1
+    }
+  ],
+  "buttonPatterns": [
+    {
+      "value": "sign in",
+      "count": 1
+    },
+    {
+      "value": "sign in",
+      "count": 1
+    },
+    {
+      "value": "register",
+      "count": 1
+    },
+    {
+      "value": "forgot your arcane seal?",
+      "count": 1
+    },
+    {
+      "value": "enter the realm",
+      "count": 1
+    }
+  ],
+  "sampleHeadings": [],
+  "stats": {
+    "buttons": 5,
+    "headings": 0
+  }
+}

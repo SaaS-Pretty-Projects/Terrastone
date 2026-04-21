@@ -1,12 +1,17 @@
 :root {
   /* Colors — Primary */
   --color-primary: #00d9ff;
-  --color-secondary: #e8e8f0;
+  --color-secondary: #ffb800;
   --color-accent: #00b1ff;
 
   /* Colors — Neutrals */
-  --color-neutral-50: #000000;
-  --color-neutral-100: #ffffff;
+  --color-neutral-50: #e8e8f0;
+  --color-neutral-100: #000000;
+  --color-neutral-200: #9ca3af;
+  --color-neutral-300: #0a0a0f;
+  --color-neutral-400: #ffffff;
+  --color-neutral-500: #c8c8d8;
+  --color-neutral-600: #4b5563;
 
   /* Colors — Backgrounds */
   --color-bg: #0a0a0f;
@@ -262,8 +267,8 @@
   --tw-exit-scale: 1;
   --tw-translate-x: 0;
   --tw-enter-rotate: 0;
-  --tw-scale-x: 1;
   --tw-enter-translate-y: 0;
+  --tw-scale-x: 1;
   --tw-enter-blur: 0;
   --container-xl: 36rem;
   --tw-enter-opacity: 1;

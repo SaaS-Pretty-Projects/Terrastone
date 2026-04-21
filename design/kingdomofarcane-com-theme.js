@@ -13,6 +13,11 @@
     foreground: string;
     neutral50: string;
     neutral100: string;
+    neutral200: string;
+    neutral300: string;
+    neutral400: string;
+    neutral500: string;
+    neutral600: string;
  *   };
  *   fonts: {
     body: string;
@@ -50,12 +55,17 @@
 export const theme = {
   "colors": {
     "primary": "#00d9ff",
-    "secondary": "#e8e8f0",
+    "secondary": "#ffb800",
     "accent": "#00b1ff",
     "background": "#0a0a0f",
     "foreground": "#000000",
-    "neutral50": "#000000",
-    "neutral100": "#ffffff"
+    "neutral50": "#e8e8f0",
+    "neutral100": "#000000",
+    "neutral200": "#9ca3af",
+    "neutral300": "#0a0a0f",
+    "neutral400": "#ffffff",
+    "neutral500": "#c8c8d8",
+    "neutral600": "#4b5563"
   },
   "fonts": {
     "body": "'Cinzel', sans-serif"
@@ -106,9 +116,9 @@ export const muiTheme = {
       "dark": "hsl(189, 100%, 35%)"
     },
     "secondary": {
-      "main": "#e8e8f0",
-      "light": "hsl(240, 21%, 95%)",
-      "dark": "hsl(240, 21%, 78%)"
+      "main": "#ffb800",
+      "light": "hsl(43, 100%, 65%)",
+      "dark": "hsl(43, 100%, 35%)"
     },
     "background": {
       "default": "#0a0a0f",
